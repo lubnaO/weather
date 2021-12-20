@@ -8,7 +8,7 @@
 }
 .navbar .navbar-brand .logo{
     height: 45px;
-     width: 50%;
+     width: 45px;
 }
 .navbar .navbar-brand {
     color: #0D3A9D ;
@@ -35,7 +35,7 @@
     color: gray;
     font-size: 19px;
 }
-.weather-image{
+#weather .weather-image img{
 width: 100%;
 }
 /*Search section*/
@@ -71,6 +71,12 @@ width: 100%;
 }
 .card-weather-infromation .card{
 background: linear-gradient(to right, #005c97, #363795); 
+}
+@media(min-width:1024px){
+    .card-weather-infromation .card{
+        width: 25rem;
+    }
+    
 }
 .card-weather-infromation .card-body > div{
     padding: 10px 0;
