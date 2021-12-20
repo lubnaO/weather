@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon"  href="image/cloudy.png" type="image/cloudy.png">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+  </head>
+<body> 
+  <div class="loader">
+    Loading....
+  </div>   
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+
+        <a class="navbar-brand" href="#"><image src="Image/clouds-sky.png" class="logo"/>Weather</a>
+       
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#weather">Weather <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#search">Search</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+    </div>
+    </nav>
+
+    <section id="weather">
+    <div class="container">
+        <div class="row d-flex justify-content-between mt-5">
+        <div class="col-lg-6 col-sm-12">
+            <div class="wheather-app-description">
+                <h2 class="mt-5">Weather App</h2>
+                <p class="mt-3">Our Weather Forecast App Development enables the user to add numerous locations to the list to verify the weather data accordingly. The user will be able to view the updated weather data every hour for any given location. Some supplementary information is also presented within the app like timings of sunrise and sunset of that specific day, prevailing humidity at the particular location and rain forecast.</p>
+            </div>
+            
+        </div>
+        <div class="col-lg-4 col-sm-12">
+            <div class="weather-image">
+            <img src="image/weather-forecast-news-by-news-anchor-2183078.png" alt="">
+        </div>
+        </div>
+
+        </div>
+    </div>
+    </section>
+
+    <section id="search" class="mt-5 mb-5">
+    <div class="container">
+       <div class="row d-flex justify-content-center mt-5">
+
+         <div class="col-lg-5 col-sm-12 mt-5">
+             <div class="serach-inbox mt-5">
+            <input type="search" placeholder="City" class="search-box">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+            </svg>
+            <h6 class="mt-5 queto">Get weather update in your city..</h6>
+            </div>
+         </div>
+
+
+         <div class="col-lg-6 col-sm-12 mt-5">
+            <div class="card-weather-infromation text-center">
+              <div class="card" style="width: 25rem;">
+                <div class="card-body">
+
+                <div class="location">
+                  <div class="city"></div>
+                  <div class="date"></div>
+                </div>
+
+                <div class="weather-details">
+                  <div class="temprature"></div>
+                  <div class="wheather-state"></div>
+                  <div class="high-low-tempureature"></div>
+                </div>
+
+                </div>
+              </div>
+           </div>
+        </div> 
+       
+
+        </div>    
+    </div>
+    </section>
+
+
+    <section id="footer">
+    <div class="coontent">
+    <div class="social-media">
+    <a href=""><i class="fab fa-facebook-f"></i></a>
+    <a href=""><i class="fab fa-twitter"></i></a>
+    <a href=""><i class="fab fa-linkedin"></i></a>
+    <a href=""><i class="fab fa-instagram"></i></a>
+    </div>
+    </div>
+    </section>
+
+
+    
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
