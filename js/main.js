@@ -27,7 +27,6 @@ function showResult(weather){
  
   let date = now.getDate();
   let day = theDays[now.getDay()];
-  console.log(day);
   let Month = theMonths[now.getMonth()]
   let year = now.getFullYear();
   let theDateDesc = document.querySelector('.location .date');
@@ -46,8 +45,12 @@ window.addEventListener('load', function(){
     document.querySelector('.loader').style.display = 'none';
 })
 
+// let inputTest = document.getElementById("test");
+// let paragrapth = document.getElementById("test-paragrapth");
 
-let m = new Date();
+// inputTest.onkeypress = function(){
+//   paragrapth.innerHTML = inputTest.value;
+// }
 
 
 
